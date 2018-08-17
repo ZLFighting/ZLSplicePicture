@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C470A1978C5DA7C1109F71 /* libPods-ZLSplicePicture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4646E6CB5BB42CA3EAE97C5A /* libPods-ZLSplicePicture.a */; };
+		7888DD7A2126A41500183672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7888DD782126A41500183672 /* Main.storyboard */; };
+		7888DD7C2126A41C00183672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7888DD7B2126A41C00183672 /* Assets.xcassets */; };
+		7888DD7F2126A41C00183672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7888DD7D2126A41C00183672 /* LaunchScreen.storyboard */; };
+		7888DD822126A41C00183672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DD812126A41C00183672 /* main.m */; };
+		7888DD8F2126AAA600183672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DD8C2126AAA500183672 /* ViewController.m */; };
+		7888DDBC2126AD8400183672 /* ZLImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDBB2126AD8400183672 /* ZLImageCell.m */; };
+		7888DDBF2126AE6300183672 /* UIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDBD2126AE6300183672 /* UIBarButtonItem+BlocksKit.m */; };
+		7888DDC22126B02700183672 /* ZLNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDC12126B02700183672 /* ZLNaviController.m */; };
+		7888DDC52126B13D00183672 /* ZLResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDC42126B13D00183672 /* ZLResultVC.m */; };
+		7888DDC92126B4ED00183672 /* NSObject+showHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDC82126B4ED00183672 /* NSObject+showHUDView.m */; };
+		7888DDCC2126B69E00183672 /* UIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDCB2126B69D00183672 /* UIControl+BlocksKit.m */; };
+		7888DDCF2126B71E00183672 /* ZLVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDCE2126B71E00183672 /* ZLVerticalButton.m */; };
+		7888DDD22126B81800183672 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDD02126B81800183672 /* UIView+Frame.m */; };
+		7888DDD52126DD1F00183672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7888DDD42126DD1F00183672 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4646E6CB5BB42CA3EAE97C5A /* libPods-ZLSplicePicture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLSplicePicture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7888DD6F2126A41400183672 /* ZLSplicePicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSplicePicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7888DD792126A41500183672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7888DD7B2126A41C00183672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7888DD7E2126A41C00183672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7888DD802126A41C00183672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7888DD812126A41C00183672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7888DD8B2126AAA500183672 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7888DD8C2126AAA500183672 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7888DDBA2126AD8400183672 /* ZLImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLImageCell.h; sourceTree = "<group>"; };
+		7888DDBB2126AD8400183672 /* ZLImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLImageCell.m; sourceTree = "<group>"; };
+		7888DDBD2126AE6300183672 /* UIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		7888DDBE2126AE6300183672 /* UIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		7888DDC02126B02700183672 /* ZLNaviController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLNaviController.h; sourceTree = "<group>"; };
+		7888DDC12126B02700183672 /* ZLNaviController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLNaviController.m; sourceTree = "<group>"; };
+		7888DDC32126B13D00183672 /* ZLResultVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLResultVC.h; sourceTree = "<group>"; };
+		7888DDC42126B13D00183672 /* ZLResultVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLResultVC.m; sourceTree = "<group>"; };
+		7888DDC62126B24200183672 /* ZLConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLConst.h; sourceTree = "<group>"; };
+		7888DDC72126B4ED00183672 /* NSObject+showHUDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+showHUDView.h"; sourceTree = "<group>"; };
+		7888DDC82126B4ED00183672 /* NSObject+showHUDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+showHUDView.m"; sourceTree = "<group>"; };
+		7888DDCA2126B69D00183672 /* UIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		7888DDCB2126B69D00183672 /* UIControl+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BlocksKit.m"; sourceTree = "<group>"; };
+		7888DDCD2126B71E00183672 /* ZLVerticalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLVerticalButton.h; sourceTree = "<group>"; };
+		7888DDCE2126B71E00183672 /* ZLVerticalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLVerticalButton.m; sourceTree = "<group>"; };
+		7888DDD02126B81800183672 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7888DDD12126B81800183672 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7888DDD32126DD1F00183672 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7888DDD42126DD1F00183672 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C54C2F367A330F1522DF7ECE /* Pods-ZLSplicePicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSplicePicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSplicePicture/Pods-ZLSplicePicture.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D83803A33D33F279D522B1 /* Pods-ZLSplicePicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSplicePicture.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSplicePicture/Pods-ZLSplicePicture.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7888DD6C2126A41400183672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C470A1978C5DA7C1109F71 /* libPods-ZLSplicePicture.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29DDA8963EBAA48D444F825F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C54C2F367A330F1522DF7ECE /* Pods-ZLSplicePicture.debug.xcconfig */,
+				C8D83803A33D33F279D522B1 /* Pods-ZLSplicePicture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60D2811BFA27B4D5077AF1AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4646E6CB5BB42CA3EAE97C5A /* libPods-ZLSplicePicture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7888DD662126A41400183672 = {
+			isa = PBXGroup;
+			children = (
+				7888DD712126A41400183672 /* ZLSplicePicture */,
+				7888DD702126A41400183672 /* Products */,
+				29DDA8963EBAA48D444F825F /* Pods */,
+				60D2811BFA27B4D5077AF1AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7888DD702126A41400183672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7888DD6F2126A41400183672 /* ZLSplicePicture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7888DD712126A41400183672 /* ZLSplicePicture */ = {
+			isa = PBXGroup;
+			children = (
+				7888DD882126AAA500183672 /* Classes */,
+				7888DDD32126DD1F00183672 /* AppDelegate.h */,
+				7888DDD42126DD1F00183672 /* AppDelegate.m */,
+				7888DD782126A41500183672 /* Main.storyboard */,
+				7888DD7B2126A41C00183672 /* Assets.xcassets */,
+				7888DD7D2126A41C00183672 /* LaunchScreen.storyboard */,
+				7888DD802126A41C00183672 /* Info.plist */,
+				7888DD812126A41C00183672 /* main.m */,
+			);
+			path = ZLSplicePicture;
+			sourceTree = "<group>";
+		};
+		7888DD882126AAA500183672 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7888DD8A2126AAA500183672 /* Controller */,
+				7888DD8E2126AAA500183672 /* View */,
+				7888DD8D2126AAA500183672 /* Tool */,
+				7888DD892126AAA500183672 /* Category */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7888DD892126AAA500183672 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7888DDD12126B81800183672 /* UIView+Frame.h */,
+				7888DDD02126B81800183672 /* UIView+Frame.m */,
+				7888DDCA2126B69D00183672 /* UIControl+BlocksKit.h */,
+				7888DDCB2126B69D00183672 /* UIControl+BlocksKit.m */,
+				7888DDBE2126AE6300183672 /* UIBarButtonItem+BlocksKit.h */,
+				7888DDBD2126AE6300183672 /* UIBarButtonItem+BlocksKit.m */,
+				7888DDC72126B4ED00183672 /* NSObject+showHUDView.h */,
+				7888DDC82126B4ED00183672 /* NSObject+showHUDView.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7888DD8A2126AAA500183672 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7888DD8B2126AAA500183672 /* ViewController.h */,
+				7888DD8C2126AAA500183672 /* ViewController.m */,
+				7888DDC32126B13D00183672 /* ZLResultVC.h */,
+				7888DDC42126B13D00183672 /* ZLResultVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7888DD8D2126AAA500183672 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7888DDC02126B02700183672 /* ZLNaviController.h */,
+				7888DDC12126B02700183672 /* ZLNaviController.m */,
+				7888DDC62126B24200183672 /* ZLConst.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7888DD8E2126AAA500183672 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7888DDBA2126AD8400183672 /* ZLImageCell.h */,
+				7888DDBB2126AD8400183672 /* ZLImageCell.m */,
+				7888DDCD2126B71E00183672 /* ZLVerticalButton.h */,
+				7888DDCE2126B71E00183672 /* ZLVerticalButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7888DD6E2126A41400183672 /* ZLSplicePicture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7888DD852126A41C00183672 /* Build configuration list for PBXNativeTarget "ZLSplicePicture" */;
+			buildPhases = (
+				58B14B9356652BCF8D704338 /* [CP] Check Pods Manifest.lock */,
+				7888DD6B2126A41400183672 /* Sources */,
+				7888DD6C2126A41400183672 /* Frameworks */,
+				7888DD6D2126A41400183672 /* Resources */,
+				54E9022941CA4E38D59C92D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLSplicePicture;
+			productName = ZLSplicePicture;
+			productReference = 7888DD6F2126A41400183672 /* ZLSplicePicture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7888DD672126A41400183672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ZL;
+				TargetAttributes = {
+					7888DD6E2126A41400183672 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7888DD6A2126A41400183672 /* Build configuration list for PBXProject "ZLSplicePicture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7888DD662126A41400183672;
+			productRefGroup = 7888DD702126A41400183672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7888DD6E2126A41400183672 /* ZLSplicePicture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7888DD6D2126A41400183672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7888DD7F2126A41C00183672 /* LaunchScreen.storyboard in Resources */,
+				7888DD7C2126A41C00183672 /* Assets.xcassets in Resources */,
+				7888DD7A2126A41500183672 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54E9022941CA4E38D59C92D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZLSplicePicture/Pods-ZLSplicePicture-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSplicePicture/Pods-ZLSplicePicture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B14B9356652BCF8D704338 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLSplicePicture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7888DD6B2126A41400183672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7888DDD52126DD1F00183672 /* AppDelegate.m in Sources */,
+				7888DDCC2126B69E00183672 /* UIControl+BlocksKit.m in Sources */,
+				7888DDD22126B81800183672 /* UIView+Frame.m in Sources */,
+				7888DDC92126B4ED00183672 /* NSObject+showHUDView.m in Sources */,
+				7888DD822126A41C00183672 /* main.m in Sources */,
+				7888DDC22126B02700183672 /* ZLNaviController.m in Sources */,
+				7888DDBF2126AE6300183672 /* UIBarButtonItem+BlocksKit.m in Sources */,
+				7888DD8F2126AAA600183672 /* ViewController.m in Sources */,
+				7888DDC52126B13D00183672 /* ZLResultVC.m in Sources */,
+				7888DDCF2126B71E00183672 /* ZLVerticalButton.m in Sources */,
+				7888DDBC2126AD8400183672 /* ZLImageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7888DD782126A41500183672 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7888DD792126A41500183672 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7888DD7D2126A41C00183672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7888DD7E2126A41C00183672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7888DD832126A41C00183672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7888DD842126A41C00183672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7888DD862126A41C00183672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54C2F367A330F1522DF7ECE /* Pods-ZLSplicePicture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JTFUQVY8J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZLSplicePicture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZL.ZLSplicePicture.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7888DD872126A41C00183672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D83803A33D33F279D522B1 /* Pods-ZLSplicePicture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JTFUQVY8J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZLSplicePicture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZL.ZLSplicePicture.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7888DD6A2126A41400183672 /* Build configuration list for PBXProject "ZLSplicePicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7888DD832126A41C00183672 /* Debug */,
+				7888DD842126A41C00183672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7888DD852126A41C00183672 /* Build configuration list for PBXNativeTarget "ZLSplicePicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7888DD862126A41C00183672 /* Debug */,
+				7888DD872126A41C00183672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7888DD672126A41400183672 /* Project object */;
+}
